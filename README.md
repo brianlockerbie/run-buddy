@@ -3,10 +3,17 @@
 
 ## Live Demo: https://brianlockerbie.github.io/run-buddy/
 
-Created a landing page with a privacy policy page for a fitness company that matches you with personalized trainers.
+# Run Buddy
 
-Key concepts covered:
+## Purpose
+A website that offers fitness training services.
 
-• HTML
-• CSS
-• Git
+## Built With
+* HTML
+* CSS
+
+## Website
+https://lernantino.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by Brian Lockerbie
