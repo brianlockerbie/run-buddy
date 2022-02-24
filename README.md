@@ -3,7 +3,7 @@
 
 ## Live Demo: https://brianlockerbie.github.io/run-buddy/
 
-# Run Buddy
+# Run Buddy Inc.
 
 ## Purpose
 A website that offers fitness training services.
