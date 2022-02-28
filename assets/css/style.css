@@ -221,12 +221,7 @@ section {
   border-color: #39a6b2;
 }
 
-.trainer {
-  margin: 20px;
-  background: #024e76;
-  color: #fce138;
-  flex: 1;
-}
+/* Meet The Trainers Start */
 
 .trainers {
   width: 100%;
@@ -236,6 +231,13 @@ section {
   justify-content: space-around;
 }
 
+.trainer {
+  margin: 20px;
+  background: #024e76;
+  color: #fce138;
+  flex: 1;
+}
+
 .trainer img {
   width: 100%;
 }
@@ -243,14 +245,6 @@ section {
 .trainer-bio {
   padding: 25px;
   line-height: 1.3;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .trainer-bio h3 {
@@ -305,9 +299,19 @@ section {
 .contact-info a {
   color: #fce138;
 }
- 
+
+/* Reach Out Styles End */
+
+/* Utilities */
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .flex-row {
   display: flex;
 }
-
-/* Reach Out Styles End */
