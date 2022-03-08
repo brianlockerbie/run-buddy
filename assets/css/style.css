@@ -16,14 +16,13 @@ header {
   background-color: #39a6b2;
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
-  background-position: center;
   background-attachment: fixed;
   background-position: 80%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: -webkit-sticky;
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
 }
 
@@ -32,6 +31,7 @@ header h1 {
   margin: 0;
   font-size: 36px;
   color: #fce138;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -55,6 +55,14 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
 }
 
 /*Header /Navbar Styles End */
@@ -125,7 +133,7 @@ section {
 
 .hero-form {
   border: 3px solid #024e76;
-  background-color: #fce138;
+  background-color: rgba(225, 225, 56, 0.8);
   padding: 20px;
   color: #024e76;
   width: 40%;
@@ -151,8 +159,16 @@ section {
   width: 100%;
   margin-bottom: 15px;
   border-radius: 10px;
-  background-color: rgba(255,255,255, 1);
+  background-color: rgba(255,255,255, 0.75);
 }
+
+.hero-form button:hover {
+  background-color: #39a6b2;
+}
+
+/* Hero Styles End */
+
+/* Section Title Styles Start */
 
 .form-input:focus {
   background-color: rgba(255,255,255, 1);
@@ -218,14 +234,15 @@ section {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
+  border-bottom: 1px solid #39a6b2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
 
-.step:not(:last-child) {
-  border-bottom: 1px solid #39a6b2;
+.step:last-child {
+  border-bottom: none;
 }
 
 .step h3 {
@@ -416,7 +433,6 @@ section {
   header h1 {
     width: 100%;
     text-align: center;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   header nav ul {
@@ -427,15 +443,8 @@ section {
 
   header nav ul li a {
     font-size: 20px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
-  header nav ul li a:hover {
-    background: #fce138;
-    color: #024e76;
-    border-radius: 15px;
-    text-shadow: none;
-  }
 
   footer h2, footer div {
     text-align: center;
@@ -458,7 +467,7 @@ section {
     flex: 0 70%;
   }
 
-  .contact-info iframe {
+  .contact-info iframe{
     flex: 1 100%;
   }
 }
@@ -475,6 +484,12 @@ section {
     text-align: center;
   }
 
+  .step-info {
+    flex: 2 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
   .step-img {
     flex: 0 32%;
     margin-right: 0;
@@ -484,6 +499,10 @@ section {
 
   .step-text {
     flex: 100%;
+  }
+
+  .trainer-bio h3, .trainer-bio h4 {
+    display: block;
   }
 
 }
